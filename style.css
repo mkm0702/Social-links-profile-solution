@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    font-family: inter;
+    background-color: hsl(0, 0%, 8%);
+
+}
+  
+.main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 8%);
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 12%);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 450px;
+    width: 90%;
+
+}
+
+.item{
+    color: white;
+    background-color: hsl(0, 0%, 12%);
+}
+
+.info{
+    background-color: hsl(0, 0%, 12%);
+}
+
+.name{
+    background-color: hsl(0, 0%, 12%);
+    margin-bottom: 0;
+}
+
+.location{
+    color: hsl(75, 94%, 57%);
+    background-color: hsl(0, 0%, 12%);
+    margin-top: 0;
+    padding-top: 10px;
+
+}
+
+.role {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: hsl(0, 0%, 12%);
+}
+.rolea {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: hsl(0, 0%, 12%);
+}
+
+
+.link {
+   
+    background-color: hsl(0, 0%, 20%);
+    width: 100%;
+    margin: 7px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+a {
+    color: white;
+    background-color: hsl(0, 0%, 20%);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#image{
+    border-radius: 100%;
+    height: 80px;
+    
+}
+
+.imag{
+    background-color: hsl(0, 0, 12%);
+    padding-top: 20px;
+}
+
+.link:hover{
+    background-color: hsl(75, 94%, 57%);
+}
+
+a:hover{
+    color: black;
+    background-color: hsl(75, 94%, 57%);
+   
+}
